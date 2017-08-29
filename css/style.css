@@ -2,13 +2,25 @@
   box-sizing: border-box;
 }
 
-.highlight{
-  background: goldenrod;
+p {
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+  color: #404040;
 }
 
-.videoWrapper{
-  display: table;
-  margin: auto;
+video{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.highlight{
+  background: yellow;
 }
 
 .mejs__controls:not([style*="display: none"]) {
@@ -17,7 +29,7 @@
 }
 
 .mejs__time-current{
-  background: yellow;
+  background: white;
 }
 
 /*.mejs__controls:not([style*="display: none"]) {
@@ -73,3 +85,31 @@ bottom 45px
 you have to figure out how you are going to center it and how to make the
 
 }*/
+
+.mejs__controls{
+  flex-wrap: wrap;
+  flex-direction: row;
+  bottom: 40px;
+
+}
+
+.mejs__time-rail{
+  width: 100%;
+}
+
+.mejs__time{
+  margin-right: auto;
+}
+
+.mejs__controls mejs__offscreen{
+  /*overflow: visible;*/
+  bottom: 40px;
+}
+
+.mejs__playpause-button{
+    margin-left: 10px;
+}
+
+.mejs__fullscreen-button{
+    margin-right: 10px;
+}
