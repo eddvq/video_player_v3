@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.highlight{
+  background: goldenrod;
+}
+
 .videoWrapper{
   display: table;
   margin: auto;
@@ -53,4 +57,19 @@
 
 .mejs__captions-position-hover {
   bottom: 45px;
+
+!!!!
+
+Make the parent container a have a flex wrap and be a row
+
+time trail has a width of 100% it pushes the other elements down
+
+the timer is given a margin to push the other elements to the right
+
+overflow of the offscreen element to visible
+
+bottom 45px
+
+you have to figure out how you are going to center it and how to make the
+
 }*/
