@@ -32,60 +32,6 @@ video{
   background: white;
 }
 
-/*.mejs__controls:not([style*="display: none"]) {
-  background: #5fcf80;
-  padding: 0;
-}
-
-.mejs__time-current {
-    background: #52b56f;
-}
-
-.mejs__time-float {
-  background: none;
-  border: none;
-  color: #111;
-}
-
-.mejs__time-float-corner {
-  border-color: #52b56f transparent transparent transparent;
-}
-
-.mejs__controls .mejs__button {
-  margin: 0 7px;
-}
-
-.mejs__controls .mejs__time-rail {
-  padding: 0;
-  margin-right: 0;
-  font-size: 12px;
-}
-
-.mejs__controls .mejs__time-rail span {
-  height: 100%;
-  border-radius: 0px;
-  margin-top: 0px;
-}
-
-.mejs__captions-position-hover {
-  bottom: 45px;
-
-!!!!
-
-Make the parent container a have a flex wrap and be a row
-
-time trail has a width of 100% it pushes the other elements down
-
-the timer is given a margin to push the other elements to the right
-
-overflow of the offscreen element to visible
-
-bottom 45px
-
-you have to figure out how you are going to center it and how to make the
-
-}*/
-
 .mejs__controls{
   flex-wrap: wrap;
   flex-direction: row;
@@ -112,4 +58,7 @@ you have to figure out how you are going to center it and how to make the
 
 .mejs__fullscreen-button{
     margin-right: 13px;
+}
+
+.mejs__controls mejs__offscreen{
 }
