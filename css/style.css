@@ -2,63 +2,40 @@
   box-sizing: border-box;
 }
 
+
 p {
   font-size: 1.3em;
   font-family: 'Roboto', sans-serif;
   color: #404040;
+  line-height: 1.50em;
 }
 
 video{
   min-width: 100%;
   min-height: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
+#caption-content{
+  width:90%;
+  margin: 0 auto;
+}
 
 .wrapper{
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 
 .highlight{
-  background: yellow;
+  color: #FC814A;
 }
 
 .mejs__controls:not([style*="display: none"]) {
-  background: hsla(0, 50%, 50%, 0);
+  background: #382B38;
   padding: 0;
 }
 
 .mejs__time-current{
-  background: white;
-}
-
-.mejs__controls{
-  flex-wrap: wrap;
-  flex-direction: row;
-  bottom: 40px;
-
-}
-
-.mejs__time-rail{
-  width: 100%;
-}
-
-.mejs__time{
-  margin-right: auto;
-}
-
-.mejs__controls mejs__offscreen{
-  /*overflow: visible;*/
-  bottom: 40px;
-}
-
-.mejs__playpause-button{
-    margin-left: 10px;
-}
-
-.mejs__fullscreen-button{
-    margin-right: 13px;
-}
-
-.mejs__controls mejs__offscreen{
+  background: #FC814A;
 }
